@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+   
+    cout << "Enter number of elements in the array: ";
+    cin >> n;
+
+    int arr[n];  
+    int sum = 0;
+
+    
+    cout << "Enter " << n << " elements:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+        sum += arr[i];  // Add each element to sum
+    }
+
+    float average = static_cast<float>(sum) / n;  // Calculate average
+
+   
+    cout << "Sum of array elements: " << sum << endl;
+    cout << "Average of array elements: " << average << endl;
+
+    return 0;
+}
+
+output:
+Enter number of elements in the array: 5
+Enter 5 elements:
+10
+20
+30
+40
+50
+Sum of array elements: 150
+Average of array elements: 30
