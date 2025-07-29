@@ -1,18 +1,18 @@
 # Array-String-C-Plus-Plus
 
-Aim: Print all elements of a given array.
+**Aim:** Print all elements of a given array.
 
-Appratus: VS code
+**Appratus:** VS code
 
-Theory:
+**Theory:**
 An array is a collection of elements of the same data type stored in contiguous memory locations. Arrays allow you to store multiple values under a single variable name with an index to access each element. The first element is at index 0, and the last at index size-1. To access or print all elements, you must traverse the array from the first element to the last using a loop structure, usually a for loop.
 Arrays provide efficient indexed access, meaning you can quickly access any element by its index without iterating. However, when you want to print or process every element, you must iterate through the entire array.
 
-Algorithm:
+**Algorithm:**
 
-1. Printing Array Elements:
+**1. Printing Array Elements:**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Start from the first index (0).
 
@@ -24,9 +24,9 @@ Algorithm Steps:
 
 5.Repeat steps 2-4 until all elements are printed.
 
-2. Find Number in Array:
+**2. Find Number in Array:**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Start from the first element.
 
@@ -39,9 +39,9 @@ Algorithm Steps:
 5.If the end is reached without a match, declare not found.
 
 
-3. Sum and Average of Array Elements
+**3. Sum and Average of Array Elements**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Initialize sum to zero.
 
@@ -53,9 +53,9 @@ Algorithm Steps:
 
 5.Calculate average as sum divided by number of elements.
 
-4. Minimum and Maximum in Array
+**4. Minimum and Maximum in Array**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Initialize min and max to the first element.
 
@@ -67,9 +67,9 @@ Algorithm Steps:
 
 5.Continue until all elements are checked.
 
-5. String Declaration and Initialization
+**5. String Declaration and Initialization**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Choose string type: C-style array or std::string.
 
@@ -77,9 +77,9 @@ Algorithm Steps:
 
 3.For std::string, declare variable and assign string literal or use constructor.
 
-6. String Concatenation
+**6. String Concatenation**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Identify the two strings to concatenate.
 
@@ -89,9 +89,9 @@ Algorithm Steps:
 
 4.Use strcat to append second string to first.
 
-7. Print String in Reverse
+**7. Print String in Reverse:**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Determine length of the string.
 
@@ -101,9 +101,9 @@ Algorithm Steps:
 
 4.Move backward to previous character.
 
-8. Palindrome Checking
+**8. Palindrome Checking**
 
-Algorithm Steps:
+**Algorithm Steps:**
 
 1.Obtain the original string.
 
@@ -113,7 +113,7 @@ Algorithm Steps:
 
 4.If all characters match, declare palindrome; else, not palindrome.
 
-Conclusion:
+**Conclusion:**
 
 Understanding fundamental data structures like arrays and strings, along with their common operations such as traversal, searching, aggregation (sum, average), and comparison, forms the basis of efficient programming in C++. Arrays provide a way to store and access collections of elements sequentially, enabling operations like printing, finding minimum/maximum values, and searching for specific elements.
 
