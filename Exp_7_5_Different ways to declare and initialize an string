@@ -1,0 +1,43 @@
+#include <iostream>
+#include <string> 
+using namespace std;
+
+int main() {
+    string str1 = "Hello";
+    string str2("World");
+    string str3(str1);
+    string str4;
+    str4 = "C++ Programming";
+    string str5(5, '*');  // ***** (5 stars)
+    char cstr1[] = "Welcome"
+    char cstr2[10] = "Home";
+    char cstr3[] = { 'C', '+', '+', '\0' };
+    cout << "C++ Strings:" << endl;
+    cout << "str1: " << str1 << endl;
+    cout << "str2: " << str2 << endl;
+    cout << "str3: " << str3 << endl;
+    cout << "str4: " << str4 << endl;
+    cout << "str5: " << str5 << endl;
+
+    cout << "\nC-style Strings:" << endl;
+    cout << "cstr1: " << cstr1 << endl;
+    cout << "cstr2: " << cstr2 << endl;
+    cout << "cstr3: " << cstr3 << endl;
+
+    return 0;
+}
+Output
+yaml
+Copy
+Edit
+C++ Strings:
+str1: Hello
+str2: World
+str3: Hello
+str4: C++ Programming
+str5: *****
+
+C-style Strings:
+cstr1: Welcome
+cstr2: Home
+cstr3: C++
