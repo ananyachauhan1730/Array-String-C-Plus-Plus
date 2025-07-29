@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Enter number of elements: ";
+    cin >> n;
+
+    int arr[n];
+
+    cout << "Enter " << n << " elements:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    int min = arr[0]; 
+    int max = arr[0];  
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] < min)
+            min = arr[i];
+        if (arr[i] > max)
+            max = arr[i];
+ }
+
+    cout << "Minimum number = " << min << endl;
+    cout << "Maximum number = " << max << endl;
+
+    return 0;
+}
+
+output:
+Enter number of elements: 6
+Enter 6 elements:
+15
+8
+22
+5
+30
+12
+Minimum number = 5
+Maximum number = 30
